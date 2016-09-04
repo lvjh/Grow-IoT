@@ -9,7 +9,8 @@ Package.onUse(function (api) {
   api.versionsFrom('1.2.0.2');
 
   Npm.depends({
-    'mime-types': '2.1.6'
+    'mime-types': '2.1.6',
+    'mosca': '2.0.2'
   });
 
   // Core dependencies.
